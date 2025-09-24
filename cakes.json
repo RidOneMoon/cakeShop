@@ -1,0 +1,309 @@
+{
+  "categories": [
+    { "id": 1, "category_name": "Chocolate Cakes" },
+    { "id": 2, "category_name": "Cheesecakes" },
+    { "id": 3, "category_name": "Cupcakes" },
+    { "id": 4, "category_name": "Fruit Cakes" }
+  ],
+  "cakes": [
+    {
+      "id": 101,
+      "name": "Chocolate Fudge Cake",
+      "category": "Chocolate Cakes",
+      "price": 250,
+      "image": "https://juliemarieeats.com/wp-content/uploads/2023/08/Chocolate-Fudge-Cake-10-scaled.jpg",
+      "description": "A dense and moist chocolate sponge layered with rich fudge frosting, perfect for true chocolate lovers."
+    },
+    {
+      "id": 102,
+      "name": "Black Forest Cake",
+      "category": "Chocolate Cakes",
+      "price": 280,
+      "image": "https://www.recipetineats.com/tachyon/2021/05/Black-Forest-Cake-new_7.jpg?resize=900%2C1125&zoom=0.72",
+      "description": "Classic German delight made with layers of chocolate sponge, whipped cream, and juicy cherries."
+    },
+    {
+      "id": 103,
+      "name": "Chocolate Lava Cake",
+      "category": "Chocolate Cakes",
+      "price": 180,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2017/02/lava-cake-1024x1536.jpg",
+      "description": "Warm chocolate cake with a gooey molten center that oozes rich cocoa flavor with every bite."
+    },
+    {
+      "id": 104,
+      "name": "Chocolate Mousse Cake",
+      "category": "Chocolate Cakes",
+      "price": 220,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2019/08/dark-chocolate-mousse-cake.jpg",
+      "description": "Airy chocolate mousse layers resting on a soft sponge base, light yet indulgent."
+    },
+    {
+      "id": 105,
+      "name": "Nutella Hazelnut Cake",
+      "category": "Chocolate Cakes",
+      "price": 300,
+      "image": "https://livforcake.com/wp-content/uploads/2015/05/Nutella_Cake9-600x600.jpg.webp",
+      "description": "Decadent cake filled with creamy Nutella and crunchy roasted hazelnuts."
+    },
+    {
+      "id": 106,
+      "name": "Dark Chocolate Cake",
+      "category": "Chocolate Cakes",
+      "price": 249,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-2.jpg",
+      "description": "Rich, bittersweet dark chocolate sponge layered with silky ganache for an intense flavor."
+    },
+    {
+      "id": 107,
+      "name": "Chocolate Mint Cake",
+      "category": "Chocolate Cakes",
+      "price": 267,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2022/01/mint-chocolate-cake-1024x1536.jpg",
+      "description": "Refreshing peppermint essence blended with moist chocolate sponge layers."
+    },
+    {
+      "id": 108,
+      "name": "Chocolate Almond Cake",
+      "category": "Chocolate Cakes",
+      "price": 275,
+      "image": "https://www.recipetineats.com/tachyon/2017/07/Flourless-Chocolate-Cake.jpg?resize=964%2C1350&zoom=0.67",
+      "description": "Nutty almond crunch combined with a soft, rich chocolate sponge."
+    },
+    {
+      "id": 109,
+      "name": "Chocolate Truffle Cake",
+      "category": "Chocolate Cakes",
+      "price": 329,
+      "image": "https://scientificallysweet.com/wp-content/uploads/2024/08/IMG_4344-er.jpg",
+      "description": "Velvety truffle layers coated in cocoa powder for a melt-in-your-mouth treat."
+    },
+    {
+      "id": 110,
+      "name": "Oreo Chocolate Cake",
+      "category": "Chocolate Cakes",
+      "price": 299,
+      "image": "https://cakesbymk.com/wp-content/uploads/2023/11/Template-Size-for-Blog-Photos-25-1203x1536.jpg",
+      "description": "Chocolate sponge layered with Oreo cream and topped with cookie crumbles."
+    },
+
+    {
+      "id": 201,
+      "name": "Classic New York Cheesecake",
+      "category": "Cheesecakes",
+      "price": 305,
+      "image": "https://www.onceuponachef.com/images/2017/12/cheesecake-1120x1300.jpg",
+      "description": "Smooth, dense, and creamy cheesecake baked on a buttery graham cracker crust."
+    },
+    {
+      "id": 202,
+      "name": "Strawberry Cheesecake",
+      "category": "Cheesecakes",
+      "price": 321,
+      "image": "https://www.recipetineats.com/tachyon/2018/12/Strawberry-Cheesecake_8.jpg?resize=900%2C1125&zoom=0.72",
+      "description": "Creamy cheesecake topped with a fresh strawberry glaze and slices."
+    },
+    {
+      "id": 203,
+      "name": "Blueberry Cheesecake",
+      "category": "Cheesecakes",
+      "price": 343,
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8071900.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+      "description": "Classic cheesecake topped with sweet blueberry compote and sauce."
+    },
+    {
+      "id": 204,
+      "name": "Mango Cheesecake",
+      "category": "Cheesecakes",
+      "price": 336,
+      "image": "https://sinfullyspicy.com/wp-content/uploads/2023/07/4-1024x1536.jpg",
+      "description": "Tropical mango puree swirled into a creamy cheesecake base."
+    },
+    {
+      "id": 205,
+      "name": "Chocolate Cheesecake",
+      "category": "Cheesecakes",
+      "price": 350,
+      "image": "https://bakerbynature.com/wp-content/uploads/2018/06/chocolatecheesecake-1-of-1.jpg",
+      "description": "Silky cheesecake infused with dark chocolate for a decadent dessert."
+    },
+    {
+      "id": 206,
+      "name": "Raspberry Swirl Cheesecake",
+      "category": "Cheesecakes",
+      "price": 318,
+      "image": "https://sugarspunrun.com/wp-content/uploads/2024/03/Raspberry-cheesecake-3-of-9-1024x1536.jpg",
+      "description": "Tangy raspberry swirls beautifully marbled into classic cheesecake."
+    },
+    {
+      "id": 207,
+      "name": "Oreo Cheesecake",
+      "category": "Cheesecakes",
+      "price": 365,
+      "image": "https://bakerbynature.com/wp-content/uploads/2018/01/OreoCheesecake2-1-of-1.jpg",
+      "description": "Cheesecake filled with Oreo crumbles and topped with cookies."
+    },
+    {
+      "id": 208,
+      "name": "Lemon Cheesecake",
+      "category": "Cheesecakes",
+      "price": 309,
+      "image": "https://www.janespatisserie.com/wp-content/uploads/2019/05/IMG_9842_1-1024x1536.jpg",
+      "description": "Light, creamy cheesecake with a refreshing tangy lemon flavor."
+    },
+    {
+      "id": 209,
+      "name": "Caramel Cheesecake",
+      "category": "Cheesecakes",
+      "price": 357,
+      "image": "https://www.janespatisserie.com/wp-content/uploads/2015/11/IMG_9728-1024x1536.jpg",
+      "description": "Rich cheesecake drizzled with golden caramel sauce."
+    },
+
+    {
+      "id": 301,
+      "name": "Vanilla Cupcake",
+      "category": "Cupcakes",
+      "price": 57,
+      "image": "https://www.recipetineats.com/tachyon/2020/09/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2.jpg?resize=900%2C1260&zoom=0.72",
+      "description": "Fluffy vanilla sponge topped with smooth buttercream frosting."
+    },
+    {
+      "id": 302,
+      "name": "Chocolate Cupcake",
+      "category": "Cupcakes",
+      "price": 31,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5-1024x1536.jpg",
+      "description": "Moist chocolate cupcake topped with creamy fudge icing."
+    },
+    {
+      "id": 303,
+      "name": "Red Velvet Cupcake",
+      "category": "Cupcakes",
+      "price": 89,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2014/10/Red-Velvet-Cupcakes-4.jpg",
+      "description": "Vibrant red sponge with classic cream cheese frosting."
+    },
+    {
+      "id": 304,
+      "name": "Lemon Cupcake",
+      "category": "Cupcakes",
+      "price": 71,
+      "image": "https://preppykitchen.com/wp-content/uploads/2020/03/lemon-cupcake-feature.jpg",
+      "description": "Zesty lemon cupcake topped with sweet lemon glaze."
+    },
+    {
+      "id": 305,
+      "name": "Carrot Cupcake",
+      "category": "Cupcakes",
+      "price": 70,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2022/04/carrot-cake-cupcakes-1024x1536.jpg",
+      "description": "Cupcake made with grated carrot, walnuts, and cream cheese frosting."
+    },
+    {
+      "id": 306,
+      "name": "Oreo Cupcake",
+      "category": "Cupcakes",
+      "price": 90,
+      "image": "https://preppykitchen.com/wp-content/uploads/2017/12/oreo-cupcake-feature-1084x1536.jpg",
+      "description": "Mini cupcake packed with Oreo crumbles and frosting."
+    },
+    {
+      "id": 307,
+      "name": "Nutella Cupcake",
+      "category": "Cupcakes",
+      "price": 9,
+      "image": "https://handletheheat.com/wp-content/uploads/2016/08/nutella-cupcakes-recipe-1536x1536.jpg",
+      "description": "Moist cupcake filled with creamy Nutella center."
+    },
+    {
+      "id": 308,
+      "name": "Pumpkin Spice Cupcake",
+      "category": "Cupcakes",
+      "price": 7,
+      "image": "https://preppykitchen.com/wp-content/uploads/2021/09/Pumpkin-Cupcakes-feature-1084x1536.jpg",
+      "description": "Warm pumpkin spice cupcake topped with whipped cream."
+    },
+    {
+      "id": 309,
+      "name": "Coconut Cupcake",
+      "category": "Cupcakes",
+      "price": 69,
+      "image": "https://preppykitchen.com/wp-content/uploads/2022/04/Coconut-Cupcakes-Feature-1083x1536.jpg",
+      "description": "Light vanilla cupcake topped with shredded coconut flakes."
+    },
+
+    {
+      "id": 401,
+      "name": "Strawberry Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 219,
+      "image": "https://www.onceuponachef.com/images/2019/05/Strawberry-Cake-1120x1394.jpg",
+      "description": "Fresh strawberry sponge layered with cream and berries."
+    },
+    {
+      "id": 402,
+      "name": "Mango Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 229,
+      "image": "https://zhangcatherine.com/wp-content/uploads/2022/01/DSC04496-scaled-1000x1333.jpg",
+      "description": "Tropical mango puree folded into a light sponge cake."
+    },
+    {
+      "id": 403,
+      "name": "Pineapple Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 211,
+      "image": "https://thefastrecipe.com/wp-content/uploads/2024/12/pineapple-fruitcake-plate-1024x1536.jpg",
+      "description": "Classic pineapple sponge with juicy pineapple pieces."
+    },
+    {
+      "id": 404,
+      "name": "Mixed Berry Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 245,
+      "image": "https://richanddelish.com/wp-content/uploads/2023/06/berry-cakes-1024x1536.jpg",
+      "description": "Berry-filled cake combining blueberry, strawberry, and raspberry flavors."
+    },
+    {
+      "id": 405,
+      "name": "Banana Walnut Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 231,
+      "image": "https://epls.b-cdn.net/wp-content/uploads/2015/10/IMG_5085-948x948.jpg",
+      "description": "Moist banana sponge with crunchy toasted walnuts."
+    },
+    {
+      "id": 406,
+      "name": "Apple Cinnamon Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 251,
+      "image": "https://fitwafflekitchen.com/wp-content/uploads/2022/01/Apple-cake-resized.jpg",
+      "description": "Warm apple cake flavored with cinnamon spice."
+    },
+    {
+      "id": 407,
+      "name": "Kiwi Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 225,
+      "image": "https://dessertdonelight.com/wp-content/uploads/2025/04/Kiwi-Cake-with-Light-Cream-Cheese-Frosting-11-1024x1024.jpg",
+      "description": "Light sponge layered with whipped cream and fresh kiwi slices."
+    },
+    {
+      "id": 408,
+      "name": "Peach Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 249,
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2023/07/easy-peach-cake-1-1024x1536.jpg",
+      "description": "Juicy peach sponge cake topped with creamy layers."
+    },
+    {
+      "id": 409,
+      "name": "Cherry Fruit Cake",
+      "category": "Fruit Cakes",
+      "price": 266,
+      "image": "https://cakesbymk.com/wp-content/uploads/2023/10/Template-Size-for-Blog-Photos-54-1203x1536.jpg",
+      "description": "Moist cherry sponge cake decorated with whipped cream."
+    }
+  ]
+}
