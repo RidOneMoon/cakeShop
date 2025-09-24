@@ -1,0 +1,221 @@
+/* ------------------------- GENERAL ------------------------- */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa; /* Light background for all pages */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ------------------------- NAVBAR ------------------------- */
+.navbar .nav-link {
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffeb3b; /* Highlight on hover */
+}
+
+.navbar .btn-warning {
+  transition: transform 0.2s;
+}
+
+.navbar .btn-warning:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------------- BANNER ------------------------- */
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+header .opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header .btn {
+  font-weight: bold;
+}
+
+
+/* ------------------------- Banner Photo ------------------------- */
+/* Banner Section */
+.banner {
+  height: 650px;
+  background: url('gen.png') center/cover no-repeat;
+  position: relative;
+}
+
+
+.banner .overlay {
+  position: absolute;
+  top:0; left:0; width:100%; height:100%;
+  background-color: rgba(0,0,0,0.55); /* dark overlay */
+}
+
+.banner .form-card {
+  background: rgba(255,255,255,0.95);
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}
+
+/* ------------------------- ABOUT BANNER ------------------------- */
+.about-banner {
+  height: 300px;
+  background: url('/Gemini_Generated_Image_6t7gwa6t7gwa6t7g.png') center/cover no-repeat;
+  position: relative;
+}
+
+.about-banner .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+}
+
+/* ------------------------- SHOP GRID ------------------------- */
+#categories {
+  list-style: none;
+  padding-left: 0;
+}
+
+#categories button {
+  margin-bottom: 8px;
+  border: 1px solid #28a745;
+  color: #28a745;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+#categories button:hover,
+#categories button.active {
+  background-color: #065f46;
+  color: white;
+}
+
+#cakes .card {
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+#cakes .card:hover {
+  transform: translateY(-5px);
+}
+
+#cakes img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.add-to-cart {
+  transition: all 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+/* ------------------------- CART ------------------------- */
+#cartList li {
+  font-size: 0.95rem;
+}
+
+#cartTotal {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* ------------------------- FOOTER ------------------------- */
+footer {
+  background-color: #065f46;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+footer h5 {
+  margin-bottom: 15px;
+  color: #ffeb3b; /* Highlight titles in footer */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ff69b4; /* Pink highlight */
+}
+
+footer .text-center {
+  margin-top: 20px;
+  border-top: 1px solid #2c6b4f;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+/* ------------------------- FORMS ------------------------- */
+input, select {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:focus, select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* ------------------------- RESPONSIVE ------------------------- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #cakes img {
+    height: 150px;
+  }
+
+  #categories button {
+    font-size: 0.9rem;
+  }
+
+  .navbar .btn-warning {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #cakes .card {
+    font-size: 0.95rem;
+  }
+
+  #cartList li {
+    font-size: 0.85rem;
+  }
+}
