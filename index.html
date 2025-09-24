@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Shop - Home</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    header {
+      height: 650px;
+      background: url('banner.jpg') center/cover no-repeat;
+      position: relative;
+    }
+    header .overlay {
+      position: absolute;
+      top:0; left:0; width:100%; height:100%;
+      background-color: rgba(0,0,0,0.55);
+    }
+    header .form-card {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm px-3 px-lg-5">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3 d-flex align-items-center" href="index.html">
+      <img src="logo-removebg-preview.png" alt="Cake Shop Logo" class="me-2" style="height: 90px; width: auto;">
+      Cake Shop
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-3 fs-5">
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="shop.html">Shop Now</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner with Form -->
+<header class="banner text-center text-white position-relative">
+  <div class="overlay"></div>
+  <div class="container position-relative">
+    <h1 class="fw-bold display-4 mb-3">Sweet Cakes for Every Occasion</h1>
+    <p class="fs-5 mb-4">Explore our collection of delicious cakes made fresh daily.</p>
+
+
+    <!-- User Info Form -->
+    <div class="form-card text-dark p-4 rounded shadow">
+      <form id="bannerForm" class="d-flex flex-column gap-2">
+        <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+        <input type="text" class="form-control" id="city" placeholder="City" required>
+        <button type="submit" class="btn btn-warning fw-bold text-success mt-2">Submit & Go to Shop</button>
+      </form>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Footer -->
+  <footer class="bg-success text-white pt-5 pb-3 mt-5">
+    <div class="container row g-4">
+      <div class="col-md-3">
+        <h5>Our Cakes</h5>
+        <ul class="list-unstyled">
+          <li><a class="text-white text-decoration-none" href="shop.html#Chocolate">Chocolate Cakes</a></li>
+          <li><a class="text-white text-decoration-none" href="shop.html#Cheesecakes">Cheesecakes</a></li>
+          <li><a class="text-white text-decoration-none" href="shop.html#Cupcakes">Cupcakes</a></li>
+          <li><a class="text-white text-decoration-none" href="shop.html#FruitCakes">Fruit Cakes</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Cake Shop</h5>
+        <ul class="list-unstyled">
+          <li><a class="text-white text-decoration-none" href="about.html">About Us</a></li>
+          <li><a class="text-white text-decoration-none" href="contact.html">Contact Us</a></li>
+          <li><a class="text-white text-decoration-none" href="#">Careers</a></li>
+          <li><a class="text-white text-decoration-none" href="#">Special Offers</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Policies</h5>
+        <ul class="list-unstyled">
+          <li><a class="text-white text-decoration-none" href="#">Terms & Conditions</a></li>
+          <li><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+          <li><a class="text-white text-decoration-none" href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Newsletter</h5>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="you@example.com" required>
+            <button class="btn btn-warning text-success fw-bold">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="text-center mt-3">© 2025 Cake Shop. All rights reserved.</div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.getElementById('bannerForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const city = document.getElementById('city').value.trim();
+
+      if (!name || !email || !phone || !city) {
+        alert('Please fill all the fields before submitting!');
+        return;
+      }
+
+      alert('Thank you! Redirecting to shop page.');
+      window.location.href = 'shop.html';
+    });
+  </script>
+</body>
+</html>
